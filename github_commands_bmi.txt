@@ -1,0 +1,59 @@
+PS C:\Users\POTE\OneDrive\Desktop\BMI-Calculator> git init
+
+Initialized empty Git repository in C:/Users/POTE/OneDrive/Desktop/BMI-Calculator/.git/
+
+PS C:\Users\POTE\OneDrive\Desktop\BMI-Calculator> git add .
+   
+PS C:\Users\POTE\OneDrive\Desktop\BMI-Calculator> git commit -m "Initial commit"
+[master (root-commit) a78fb69] Initial commit
+ 3 files changed, 92 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 script.js
+ create mode 100644 style.css
+
+PS C:\Users\POTE\OneDrive\Desktop\BMI-Calculator> git remote add origin https://github.com/sidp-2003/bmi-calculator.git
+    
+PS C:\Users\POTE\OneDrive\Desktop\BMI-Calculator> git branch -M main
+
+PS C:\Users\POTE\OneDrive\Desktop\BMI-Calculator> git push -u origin main
+
+info: please complete authentication in your browser...
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.17 KiB | 598.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/sidp-2003/BMI-Calculator.git
+To https://github.com/sidp-2003/bmi-calculator.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+PS C:\Users\POTE\OneDrive\Desktop\BMI-Calculator> git checkout -b feature-bmi-app
+Switched to a new branch 'feature-bmi-app'
+
+PS C:\Users\POTE\OneDrive\Desktop\BMI-Calculator> git add README.md
+
+PS C:\Users\POTE\OneDrive\Desktop\BMI-Calculator> git commit -m "Added README file"
+[feature-bmi-app 68a9973] Added README file
+ 1 file changed, 34 insertions(+)
+ create mode 100644 README.md
+
+PS C:\Users\POTE\OneDrive\Desktop\BMI-Calculator> git push --set-upstream origin feature-bmi-app
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 689 bytes | 689.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/sidp-2003/BMI-Calculator.git
+remote: 
+remote: Create a pull request for 'feature-bmi-app' on GitHub by visiting:
+remote:      https://github.com/sidp-2003/BMI-Calculator/pull/new/feature-bmi-app
+remote: 
+To https://github.com/sidp-2003/bmi-calculator.git
+ * [new branch]      feature-bmi-app -> feature-bmi-app
+branch 'feature-bmi-app' set up to track 'origin/feature-bmi-app'.
+
